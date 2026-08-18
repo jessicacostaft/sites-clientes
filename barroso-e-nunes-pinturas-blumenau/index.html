@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Barroso &amp; Nunes Pinturas | Pintura Residencial e Comercial em Blumenau, SC</title>
+<meta name="description" content="Pintura residencial e comercial em Blumenau, SC. 5,0 estrelas no Google (25 avaliações). Orçamento direto pelo WhatsApp com o Alexandre.">
+<meta property="og:title" content="Barroso &amp; Nunes Pinturas — Blumenau, SC">
+<meta property="og:description" content="5,0 estrelas no Google (25 avaliações). Pintura residencial e comercial com capricho e prazo combinado.">
+<meta property="og:image" content="assets/hero-fachada.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+  :root{
+    --orange-700:#B8480E;
+    --orange-600:#D8590F;
+    --orange-500:#F0691B;
+    --orange-400:#FF8B4B;
+    --orange-100:#FCE1CC;
+    --orange-50:#FBF1E6;
+    --ink-900:#1A160F;
+    --ink-800:#262019;
+    --ink:#221D16;
+    --gray-600:#6E6558;
+    --gray-400:#A69C8C;
+    --line:#E8DFD0;
+    --cream:#FAF6EE;
+    --paper:#FFFCF6;
+    --star:#FFB020;
+    --shadow:0 20px 50px rgba(26,22,15,.12);
+    --radius:22px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Poppins',sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;overflow-x:hidden;}
+  h1,h2,h3,h4,.display{font-family:'Bricolage Grotesque',sans-serif;}
+  img{max-width:100%;display:block;}
+  a{text-decoration:none;color:inherit;}
+  ul{list-style:none;}
+  button{font:inherit;cursor:pointer;}
+  /* Sistema responsivo obrigatório — largura útil compartilhada por .container e .nav */
+  .container,.nav{width:1280px;margin-inline:auto;}
+  @media(max-width:2399px){.container,.nav{width:1280px;}}
+  @media(max-width:1366px){.container,.nav{width:1100px;}}
+  @media(max-width:1200px){.container,.nav{width:924px;}}
+  @media(max-width:1024px){.container,.nav{width:780px;}}
+  @media(max-width:880px){.container,.nav{width:90vw;}}
+  .ic{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;}
+
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:14.5px;border:1.5px solid transparent;transition:transform .2s ease,box-shadow .2s ease,background .2s ease;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn-primary{background:var(--orange-500);color:#fff;box-shadow:0 10px 24px rgba(240,105,27,.35);}
+  .btn-primary:hover{background:var(--orange-600);}
+  .btn-outline{border-color:var(--line);color:var(--ink);}
+  .btn-outline:hover{border-color:var(--orange-500);color:var(--orange-600);}
+  .btn-ghost-light{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.4);}
+  .btn-ghost-light:hover{background:#fff;color:var(--ink-900);}
+  .btn-on-brand{background:#fff;color:var(--orange-700);}
+  .btn-on-brand:hover{background:var(--orange-50);}
+
+  /* Utility bar */
+  .utility-bar{background:var(--ink-900);color:#D8CFC0;font-size:12.5px;}
+  .utility-bar .container{display:flex;align-items:center;justify-content:space-between;padding-block:9px;flex-wrap:wrap;gap:8px;}
+  .utility-links{display:flex;align-items:center;gap:20px;}
+  .utility-links a{opacity:.9;transition:opacity .15s;display:inline-flex;align-items:center;gap:6px;}
+  .utility-links a:hover{opacity:1;color:var(--orange-400);}
+  .utility-links .ic{width:13px;height:13px;}
+  @media(max-width:760px){.utility-links span:first-child{display:none;}}
+
+  /* Header / nav */
+  header{position:sticky;top:0;z-index:50;background:linear-gradient(100deg,var(--orange-700),var(--orange-500));transition:box-shadow .3s ease;}
+  header.scrolled{box-shadow:0 14px 30px rgba(26,22,15,.22);}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding-block:13px;}
+  .brand{display:flex;align-items:center;gap:11px;color:#fff;}
+  .brand .mark{width:38px;height:38px;flex:none;color:#fff;}
+  .brand .word{font-family:'Bricolage Grotesque',sans-serif;line-height:1;}
+  .brand .word b{display:block;font-size:16.5px;font-weight:700;letter-spacing:-.01em;}
+  .brand .word span{display:block;font-size:10.5px;font-weight:500;letter-spacing:.22em;color:#FFE0C7;margin-top:3px;}
+  .nav-links{display:flex;gap:28px;font-size:14px;font-weight:500;color:#fff;}
+  .nav-links a{opacity:.88;transition:opacity .15s;}
+  .nav-links a:hover{opacity:1;}
+  .nav-cta{display:flex;align-items:center;gap:14px;}
+  .nav-icon-btn{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;color:#fff;flex:none;transition:background .2s;border:0;}
+  .nav-icon-btn:hover{background:rgba(255,255,255,.3);}
+  .menu-toggle{display:none;border:0;background:none;color:#fff;padding:6px;flex:none;}
+  @media(max-width:900px){
+    .nav-icon-btn{display:none;}
+    .nav-cta > a.btn{display:none;}
+    .menu-toggle{display:flex;align-items:center;justify-content:center;}
+    .nav-links{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:var(--ink-900);max-height:0;overflow:hidden;opacity:0;padding:0 24px;transition:max-height .25s ease,opacity .2s ease,padding .25s ease;}
+    .nav-links.open{display:flex;max-height:420px;opacity:1;padding:14px 24px 20px;box-shadow:0 18px 34px rgba(0,0,0,.32);}
+    .nav-links a{color:#fff;opacity:1;padding:13px 2px;border-bottom:1px solid rgba(255,255,255,.1);font-size:15px;}
+    .nav-links a.mobile-cta-link{display:block;margin-top:6px;border-bottom:0;border-radius:999px;background:var(--orange-500);color:#fff;text-align:center;font-weight:600;padding:13px 2px;}
+  }
+  @media(min-width:901px){.mobile-cta-link{display:none;}}
+
+  .site-section,section{padding-block:100px;}
+  .section-head{text-align:center;max-width:620px;margin:0 auto 50px;}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--orange-600);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px;}
+  .eyebrow:before,.eyebrow:after{content:"";width:26px;height:1px;background:currentColor;opacity:.5;}
+  .section-head h2{font-size:clamp(28px,3.4vw,38px);font-weight:700;letter-spacing:-.02em;}
+  .section-head p{color:var(--gray-600);margin-top:14px;font-size:16px;}
+
+  /* ===== HERO — CENTERED_AUTHORITY ===== */
+  .hero{position:relative;min-height:90vh;display:flex;align-items:center;justify-content:center;padding:150px 0 100px;overflow:hidden;background:radial-gradient(120% 90% at 50% -10%,var(--ink-800),var(--ink-900) 62%);color:#fff;text-align:center;isolation:isolate;}
+  .hero>.container{position:relative;z-index:2;}
+  .hero-brush{position:absolute;inset:-10% -20%;z-index:0;opacity:.16;pointer-events:none;}
+  .hero-brush svg{width:100%;height:100%;}
+  .hero-inner{position:relative;z-index:2;max-width:760px;margin:0 auto;}
+  .hero-eyebrow{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:8px 16px 8px 10px;border-radius:999px;font-size:12.5px;font-weight:600;letter-spacing:.04em;color:#FFDFC4;}
+  .hero-eyebrow .dot{width:7px;height:7px;border-radius:50%;background:#7EDDA0;flex:none;}
+  .hero h1{margin:26px 0 20px;font-size:clamp(2.3rem,5.4vw,4rem);font-weight:700;line-height:1.06;letter-spacing:-.03em;max-width:16ch;margin-inline:auto;}
+  .hero h1 em{font-style:normal;color:var(--orange-400);}
+  .hero p.lead{max-width:46ch;margin:0 auto;color:rgba(255,255,255,.72);font-size:16.5px;line-height:1.75;}
+  .hero-actions{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:36px;flex-wrap:wrap;}
+  .hero-actions a.secondary{display:inline-flex;align-items:center;gap:7px;color:rgba(255,255,255,.85);font-weight:600;font-size:14.5px;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:2px;transition:.2s;}
+  .hero-actions a.secondary:hover{color:#fff;border-color:#fff;}
+  .hero-stats{display:flex;align-items:center;justify-content:center;gap:0;margin-top:56px;flex-wrap:wrap;}
+  .hero-stats .stat{padding:0 26px;text-align:center;}
+  .hero-stats .stat + .stat{border-left:1px solid rgba(255,255,255,.16);}
+  .hero-stats .stat b{display:flex;align-items:center;gap:6px;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:17px;font-weight:700;color:#fff;}
+  .hero-stats .stat b .ic{width:15px;height:15px;color:var(--star);fill:var(--star);stroke:none;}
+  .hero-stats .stat span{display:block;margin-top:4px;font-size:11.5px;color:rgba(255,255,255,.58);letter-spacing:.03em;}
+  @media(max-width:600px){.hero{padding:130px 0 100px;}.hero-stats{gap:6px 0;}.hero-stats .stat{padding:6px 18px;}.hero-stats .stat:nth-child(3){border-left:none;}}
+
+  .hero-band{position:relative;height:52vh;min-height:340px;max-height:560px;overflow:hidden;}
+  .hero-band img{width:100%;height:100%;object-fit:cover;}
+  .hero-band::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(26,22,15,.55),transparent 30%);}
+  .hero-band .cap{position:absolute;left:24px;bottom:20px;z-index:2;color:#fff;font-size:12.5px;font-weight:500;background:rgba(26,22,15,.42);backdrop-filter:blur(6px);padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.18);}
+
+  /* Modal */
+  .modal-overlay{position:fixed;inset:0;z-index:100;background:rgba(23,19,13,.6);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:opacity .25s ease;}
+  .modal-overlay.open{opacity:1;visibility:visible;}
+  .modal-card{background:var(--paper);border-radius:26px;max-width:460px;width:100%;padding:36px 32px;position:relative;box-shadow:0 30px 70px rgba(0,0,0,.35);transform:translateY(14px) scale(.98);transition:transform .3s ease;}
+  .modal-overlay.open .modal-card{transform:translateY(0) scale(1);}
+  .modal-close{position:absolute;top:18px;right:18px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;color:var(--ink);}
+  .modal-card h3{font-size:21px;font-weight:700;margin-bottom:6px;}
+  .modal-card > p{color:var(--gray-600);font-size:14px;margin-bottom:22px;}
+  .field-group{margin-bottom:20px;}
+  .field-group label{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gray-600);margin-bottom:10px;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{padding:10px 15px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font-size:13px;font-weight:500;color:var(--ink);transition:.2s;}
+  .chip:hover{border-color:var(--orange-400);}
+  .chip.active{background:var(--orange-500);border-color:var(--orange-500);color:#fff;}
+
+  /* Fluxo de passos conectados */
+  .flow{background:var(--ink-900);color:#fff;}
+  .flow .eyebrow{color:var(--orange-400);}
+  .flow .section-head h2{color:#fff;}
+  .flow .section-head p{color:rgba(255,255,255,.6);}
+  .flow-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  @media(max-width:860px){.flow-grid{grid-template-columns:repeat(2,1fr);}}
+  .flow-connector{position:absolute;left:8%;right:8%;top:44px;height:0;border-top:2px dashed rgba(255,138,75,.4);z-index:0;}
+  .flow-connector .node{position:absolute;top:0;width:9px;height:9px;border-radius:50%;background:var(--orange-400);transform:translate(-50%,-50%);box-shadow:0 0 0 5px var(--ink-900);}
+  @media(max-width:860px){.flow-connector{display:none;}}
+  .flow-card{position:relative;overflow:hidden;background:var(--ink-800);border-radius:18px;padding:26px 22px;box-shadow:0 14px 30px rgba(0,0,0,.25);z-index:1;transition:transform .3s ease;}
+  .flow-card::after{content:"";position:absolute;top:-45%;right:-25%;width:150px;height:150px;background:radial-gradient(circle,rgba(255,138,75,.28),transparent 70%);pointer-events:none;}
+  .flow-card:hover{transform:translateY(-6px);}
+  .flow-card .step{position:absolute;top:16px;right:18px;font-family:'Bricolage Grotesque',sans-serif;font-size:11px;font-weight:700;color:rgba(255,255,255,.28);letter-spacing:.1em;}
+  .flow-card .ic-wrap{position:relative;z-index:1;width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,var(--orange-500),var(--orange-400));display:flex;align-items:center;justify-content:center;margin-bottom:18px;box-shadow:0 8px 18px rgba(240,105,27,.35);}
+  .flow-card .ic-wrap .ic{color:#fff;width:21px;height:21px;}
+  .flow-card h4{font-size:16px;margin-bottom:6px;}
+  .flow-card p{font-size:12.5px;color:rgba(255,255,255,.6);}
+
+  /* Galeria duas fileiras */
+  .gallery-rows{display:flex;flex-direction:column;gap:20px;padding-top:8px;}
+  .gallery-wrap{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);}
+  .gallery-track{display:flex;width:max-content;gap:20px;animation:galLeft 50s linear infinite;}
+  .gallery-track.reverse{animation-name:galRight;}
+  .gallery-wrap:hover .gallery-track{animation-play-state:paused;}
+  @keyframes galLeft{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+  @keyframes galRight{0%{transform:translateX(-50%);}100%{transform:translateX(0);}}
+  .gallery-card{position:relative;width:270px;height:330px;flex-shrink:0;border-radius:20px;overflow:hidden;box-shadow:0 8px 20px rgba(26,22,15,.12);transition:transform .5s ease,box-shadow .5s ease;}
+  .gallery-card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(26,22,15,.24);}
+  .gallery-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s ease;}
+  .gallery-card:hover img{transform:scale(1.08);}
+  .gallery-card .overlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(26,22,15,.88) 0%,rgba(26,22,15,.35) 46%,transparent 72%);}
+  .gallery-card .content{position:relative;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:20px;color:#fff;}
+  .gallery-card h4{font-size:15.5px;margin-bottom:3px;}
+  .gallery-card p{font-size:12px;color:rgba(255,255,255,.7);}
+  @media(max-width:600px){.gallery-card{width:220px;height:280px;}}
+
+  /* Por que a Barroso & Nunes */
+  .why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+  @media(max-width:760px){.why-grid{grid-template-columns:1fr;}}
+  .why-card{position:relative;display:flex;gap:16px;background:var(--paper);border-radius:18px;padding:24px;border:1px solid var(--line);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease;}
+  .why-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:transparent;}
+  .why-card .ic-wrap{position:relative;z-index:1;flex:none;width:46px;height:46px;border-radius:13px;background:linear-gradient(135deg,var(--orange-500),var(--orange-400));display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px rgba(240,105,27,.32);}
+  .why-card .ic-wrap .ic{color:#fff;}
+  .why-card h4{font-size:16px;margin-bottom:6px;}
+  .why-card p{font-size:13.5px;color:var(--gray-600);}
+  .why-card q{font-style:normal;color:var(--orange-700);}
+
+  /* Border-run */
+  @property --angle{syntax:'<angle>';inherits:false;initial-value:0deg;}
+  .border-run{position:relative;isolation:isolate;}
+  .border-run::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;
+    background:conic-gradient(from var(--angle),transparent 0deg,var(--orange-500) 60deg,var(--orange-400) 140deg,transparent 200deg,transparent 360deg);
+    -webkit-mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+    mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+    animation:borderRun 6s linear infinite;opacity:0;transition:opacity .3s;pointer-events:none;z-index:2;}
+  .border-run:hover::before{opacity:1;animation-duration:2.2s;}
+  @keyframes borderRun{100%{--angle:360deg;}}
+
+  /* Prova social */
+  .proof{position:relative;overflow:hidden;background:linear-gradient(155deg,var(--ink-900),var(--ink-800));color:#fff;border-radius:32px;padding:60px 56px;}
+  .proof::after{content:"";position:absolute;top:-35%;right:-8%;width:340px;height:340px;background:radial-gradient(circle,rgba(255,138,75,.25),transparent 70%);pointer-events:none;}
+  .proof-top{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:44px;}
+  .proof-score{display:flex;align-items:center;gap:20px;}
+  .proof-score .num{font-family:'Bricolage Grotesque',sans-serif;font-size:52px;font-weight:800;line-height:1;}
+  .proof-score .stars{color:var(--star);letter-spacing:2px;margin:4px 0;}
+  .proof-score .stars .ic{width:15px;height:15px;fill:var(--star);stroke:none;display:inline-block;}
+  .proof-score small{color:rgba(255,255,255,.6);font-size:12.5px;}
+  .proof-top a{position:relative;z-index:1;color:#fff;font-weight:600;font-size:13.5px;text-decoration:underline;text-underline-offset:3px;opacity:.85;}
+  .proof-top a:hover{opacity:1;}
+  .proof-quotes{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  @media(max-width:860px){.proof-quotes{grid-template-columns:1fr;}}
+  .quote-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:22px;}
+  .quote-card .stars{color:var(--star);font-size:12px;margin-bottom:12px;}
+  .quote-card p{font-size:13.5px;color:rgba(255,255,255,.85);line-height:1.6;margin-bottom:14px;}
+  .quote-card b{display:block;font-size:12.5px;font-weight:600;color:#fff;}
+  .quote-card span{font-size:11.5px;color:rgba(255,255,255,.5);}
+
+  /* Sobre */
+  .about{display:grid;grid-template-columns:0.85fr 1.15fr;gap:60px;align-items:center;}
+  @media(max-width:900px){.about{grid-template-columns:1fr;}}
+  .about-media{position:relative;}
+  .about-media img{border-radius:var(--radius);box-shadow:var(--shadow);height:460px;width:100%;object-fit:cover;}
+  .about-badge{position:absolute;bottom:22px;left:22px;background:#fff;border-radius:14px;padding:14px 18px;box-shadow:0 14px 30px rgba(26,22,15,.22);display:flex;align-items:center;gap:12px;}
+  .about-badge .stars{color:var(--star);font-size:14px;letter-spacing:1px;}
+  .about-badge b{font-size:16px;display:block;}
+  .about-badge small{color:var(--gray-600);font-size:11px;}
+  .about-list{margin-top:22px;display:flex;flex-direction:column;gap:14px;}
+  .about-list li{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:var(--gray-600);}
+  .about-list b{color:var(--ink);}
+  .check{flex:none;width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--orange-500),var(--orange-400));color:#fff;display:flex;align-items:center;justify-content:center;margin-top:2px;box-shadow:0 6px 14px rgba(240,105,27,.32);}
+  .check .ic{width:13px;height:13px;stroke-width:2.6;}
+
+  /* Contato */
+  .contact{background:var(--orange-50);}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:stretch;}
+  @media(max-width:900px){.contact-grid{grid-template-columns:1fr;}}
+  .contact-card{background:var(--paper);border-radius:22px;padding:36px;box-shadow:var(--shadow);}
+  .contact-item{display:flex;gap:14px;margin-bottom:20px;}
+  .contact-item .ic-wrap{flex:none;width:42px;height:42px;border-radius:12px;background:var(--orange-100);color:var(--orange-700);display:flex;align-items:center;justify-content:center;}
+  .contact-item h5{font-size:12.5px;color:var(--gray-600);margin-bottom:2px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;}
+  .contact-item p{font-weight:600;font-size:15px;}
+  .map-wrap{border-radius:22px;overflow:hidden;box-shadow:var(--shadow);min-height:340px;}
+  .map-wrap iframe{width:100%;height:100%;min-height:340px;border:0;}
+  .phone-shell{max-width:280px;margin-inline:auto;overflow:hidden;border:9px solid var(--ink-900);border-radius:34px;background:#eee9df;box-shadow:0 20px 50px rgba(0,0,0,.18);}
+  .phone-top{height:26px;background:var(--ink-900);}
+  .chat-head{display:flex;align-items:center;gap:9px;padding:13px 16px;background:#128C7E;color:#fff;font-size:11.5px;}
+  .chat-avatar{width:27px;height:27px;border-radius:50%;background:var(--orange-500);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;flex:none;}
+  .chat-body{display:flex;min-height:220px;flex-direction:column;justify-content:flex-end;gap:9px;padding:16px 12px;background:#e9e2d5;}
+  .bubble{max-width:85%;padding:10px 12px;border-radius:4px 12px 12px;background:#fff;color:#3d372c;font-size:11px;line-height:1.5;}
+  .bubble.me{align-self:flex-end;border-radius:12px 4px 12px 12px;background:#d4f8bd;}
+
+  /* CTA banner */
+  .cta-banner{position:relative;overflow:hidden;background:linear-gradient(120deg,var(--orange-600),var(--orange-700));color:#fff;text-align:center;border-radius:32px;padding:68px 24px;}
+  .cta-banner h2{font-size:clamp(26px,3.4vw,34px);margin-bottom:14px;}
+  .cta-banner p{color:#FFE6D2;max-width:480px;margin:0 auto 28px;}
+
+  footer{background:var(--ink-900);color:#C9BFAF;padding:60px 0 26px;}
+  .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;padding-bottom:44px;}
+  @media(max-width:860px){.footer-grid{grid-template-columns:1fr 1fr;}}
+  footer h5{color:#fff;font-size:14.5px;margin-bottom:16px;font-weight:600;}
+  footer li{margin-bottom:10px;font-size:13.5px;}
+  footer a:hover{color:var(--orange-400);}
+  .foot-brand{display:flex;align-items:center;gap:11px;color:#fff;margin-bottom:14px;}
+  .foot-brand .mark{width:34px;height:34px;color:var(--orange-400);flex:none;}
+  .foot-brand b{display:block;font-size:16px;font-weight:700;}
+  footer p.desc{font-size:13px;max-width:280px;line-height:1.7;}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#9C927F;}
+
+  .whatsapp-float{position:fixed;bottom:24px;right:24px;background:#22C766;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(0,0,0,.28);z-index:60;transition:transform .35s ease;}
+  .whatsapp-float:hover{transform:scale(1.08) rotate(4deg);}
+  .whatsapp-float svg{width:27px;height:27px;}
+  .whatsapp-float .ping{position:absolute;top:-2px;right:-2px;width:14px;height:14px;background:#FF4D4D;border-radius:50%;border:2px solid #fff;animation:pulseDot 2.2s ease-in-out infinite;}
+  @keyframes pulseDot{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.55;transform:scale(1.2);}}
+
+  /* Motion */
+  .reveal,.reveal-stagger>*{opacity:1;transform:none;}
+  .js .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.25,.46,.45,.94),transform .7s cubic-bezier(.25,.46,.45,.94);}
+  .js .reveal.is-visible{opacity:1;transform:translateY(0);}
+  .js .reveal-stagger>*{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.25,.46,.45,.94),transform .7s cubic-bezier(.25,.46,.45,.94);}
+  .js .reveal-stagger.is-visible>*{opacity:1;transform:translateY(0);}
+  .js .reveal-stagger.is-visible>*:nth-child(1){transition-delay:.04s;}
+  .js .reveal-stagger.is-visible>*:nth-child(2){transition-delay:.09s;}
+  .js .reveal-stagger.is-visible>*:nth-child(3){transition-delay:.14s;}
+  .js .reveal-stagger.is-visible>*:nth-child(4){transition-delay:.19s;}
+  .js .hero-inner>*{opacity:0;transform:translateY(18px);transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1);}
+  .js body.loaded .hero-inner>*{opacity:1;transform:none;}
+  .js body.loaded .hero-inner>*:nth-child(2){transition-delay:.08s;}
+  .js body.loaded .hero-inner>*:nth-child(3){transition-delay:.16s;}
+  .js body.loaded .hero-inner>*:nth-child(4){transition-delay:.24s;}
+  .js body.loaded .hero-inner>*:nth-child(5){transition-delay:.32s;}
+
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .gallery-track{animation:none;}
+    .border-run::before{animation:none;}
+    .js .reveal,.js .reveal-stagger>*,.js .hero-inner>*{transition:none;opacity:1;transform:none;}
+    .whatsapp-float .ping{animation:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="utility-bar">
+  <div class="container">
+    <div class="utility-links">
+      <span>R. Itaiópolis, 66 — Itoupava Seca, Blumenau/SC</span>
+      <a href="tel:+5547997244242">(47) 99724-4242</a>
+    </div>
+    <div class="utility-links">
+      <a href="https://www.google.com/maps/place/Barroso+e+Nunes+pinturas/@-26.9024775,-49.076992,17z/data=!3m1!4b1!4m6!3m5!1s0x94df1f0b9c4f4025:0x593d23a98d101834!8m2!3d-26.9024775!4d-49.076992" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="var(--star)" stroke="none"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+        5,0 · 25 avaliações no Google
+      </a>
+    </div>
+  </div>
+</div>
+
+<header id="siteHeader">
+  <div class="nav">
+    <a class="brand" href="#inicio">
+      <svg class="mark" viewBox="0 0 48 48" fill="none">
+        <path d="M6 24 22 9 38 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 22v18h24V22" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M17 40V28h8v12" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+        <g transform="rotate(40 32 16)">
+          <rect x="29" y="3" width="6" height="9" rx="1.4" fill="currentColor"/>
+          <rect x="28.3" y="11.4" width="7.4" height="4.6" fill="currentColor"/>
+          <rect x="29" y="15.6" width="6" height="9" rx="1" fill="currentColor" opacity=".55"/>
+        </g>
+      </svg>
+      <span class="word"><b>Barroso &amp; Nunes</b><span>PINTURAS</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#contato">Contato</a>
+      <a class="mobile-cta-link" href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener">Pedir orçamento no WhatsApp</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="nav-icon-btn" id="navQuoteBtn" aria-label="Pedir orçamento">
+        <svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <a class="btn btn-on-brand" href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener">Pedir orçamento</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-controls="mobileNav" aria-expanded="false">
+        <svg class="ic" style="width:24px;height:24px" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-brush" aria-hidden="true">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+      <path d="M-100 620 C 200 380, 500 760, 820 460 S 1300 120, 1300 120" stroke="#F0691B" stroke-width="150" fill="none" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="container">
+  <div class="hero-inner">
+    <span class="hero-eyebrow"><span class="dot"></span> Pintura residencial &amp; comercial · Blumenau e região</span>
+    <h1>Capricho em cada detalhe. <em>Compromisso</em> em cada prazo.</h1>
+    <p class="lead">Alexandre e a equipe Barroso &amp; Nunes cuidam da preparação, da proteção do ambiente e do acabamento — do primeiro orçamento até a última demão de tinta.</p>
+    <div class="hero-actions">
+      <button class="btn btn-primary" id="heroQuoteBtn">Pedir orçamento no WhatsApp</button>
+      <a class="secondary" href="#trabalhos">Ver trabalhos reais
+        <svg class="ic" style="width:15px;height:15px" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <b><svg class="ic" viewBox="0 0 24 24" fill="var(--star)" stroke="none"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg> 5,0 no Google</b>
+        <span>25 avaliações reais</span>
+      </div>
+      <div class="stat">
+        <b>Seg – Sáb</b>
+        <span>07h às 18h</span>
+      </div>
+      <div class="stat">
+        <b>Itoupava Seca</b>
+        <span>Blumenau, SC</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div class="hero-band">
+  <img src="assets/hero-fachada.jpg" alt="Fachada residencial pintada pela Barroso e Nunes Pinturas, em Blumenau">
+  <span class="cap">Fachada residencial pintada pela Barroso &amp; Nunes</span>
+</div>
+
+<section class="flow">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Do orçamento à última demão</h2>
+      <p>Quatro etapas simples, sem enrolação — do primeiro contato até você conferir o resultado.</p>
+    </div>
+    <div class="flow-grid reveal-stagger">
+      <div class="flow-connector">
+        <span class="node" style="left:12.5%"></span>
+        <span class="node" style="left:37.5%"></span>
+        <span class="node" style="left:62.5%"></span>
+        <span class="node" style="left:87.5%"></span>
+      </div>
+      <div class="flow-card border-run">
+        <span class="step">01</span>
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.3L3 20l1.2-5.5A8.4 8.4 0 1 1 21 11.5Z"/></svg></div>
+        <h4>Orçamento pelo WhatsApp</h4>
+        <p>Conte o que precisa pintar e receba uma ideia de valor rápido.</p>
+      </div>
+      <div class="flow-card border-run">
+        <span class="step">02</span>
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-8h6v8"/></svg></div>
+        <h4>Visita e medição</h4>
+        <p>O Alexandre vai até o local medir e confirmar tinta, cor e prazo.</p>
+      </div>
+      <div class="flow-card border-run">
+        <span class="step">03</span>
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"/></svg></div>
+        <h4>Execução protegida</h4>
+        <p>Móveis, pisos e vidros cobertos antes da primeira demão.</p>
+      </div>
+      <div class="flow-card border-run">
+        <span class="step">04</span>
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></div>
+        <h4>Entrega e conferência</h4>
+        <p>Vistoria com você antes de considerar o serviço concluído.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trabalhos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Trabalhos reais</span>
+      <h2>Fotos direto do perfil do Google</h2>
+      <p>Sem banco de imagens — cada foto abaixo é de um serviço real, publicada no Google Meu Negócio da Barroso &amp; Nunes.</p>
+    </div>
+  </div>
+  <div class="gallery-rows">
+    <div class="gallery-wrap">
+      <div class="gallery-track">
+        <div class="gallery-card"><img src="assets/galeria-fachada-01.jpg" alt="Fachada residencial pintada em tom creme"><div class="overlay"></div><div class="content"><h4>Pintura de fachada</h4><p>Residência — Itoupava Seca</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-boiserie-06.jpg" alt="Parede com painéis boiserie em tom rosa"><div class="overlay"></div><div class="content"><h4>Parede boiserie</h4><p>Acabamento interno sob medida</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-fachada-03.jpg" alt="Fachada residencial em cinza contemporâneo"><div class="overlay"></div><div class="content"><h4>Fachada contemporânea</h4><p>Cinza — acabamento fosco</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-listras-10.jpg" alt="Parede com listras decorativas cinza e branco"><div class="overlay"></div><div class="content"><h4>Parede com listras</h4><p>Projeto decorativo interno</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-fachada-13.jpg" alt="Fachada e muro pintados em azul acinzentado"><div class="overlay"></div><div class="content"><h4>Fachada e muro</h4><p>Acabamento completo externo</p></div></div>
+        <!-- duplicado p/ loop contínuo -->
+        <div class="gallery-card"><img src="assets/galeria-fachada-01.jpg" alt="Fachada residencial pintada em tom creme"><div class="overlay"></div><div class="content"><h4>Pintura de fachada</h4><p>Residência — Itoupava Seca</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-boiserie-06.jpg" alt="Parede com painéis boiserie em tom rosa"><div class="overlay"></div><div class="content"><h4>Parede boiserie</h4><p>Acabamento interno sob medida</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-fachada-03.jpg" alt="Fachada residencial em cinza contemporâneo"><div class="overlay"></div><div class="content"><h4>Fachada contemporânea</h4><p>Cinza — acabamento fosco</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-listras-10.jpg" alt="Parede com listras decorativas cinza e branco"><div class="overlay"></div><div class="content"><h4>Parede com listras</h4><p>Projeto decorativo interno</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-fachada-13.jpg" alt="Fachada e muro pintados em azul acinzentado"><div class="overlay"></div><div class="content"><h4>Fachada e muro</h4><p>Acabamento completo externo</p></div></div>
+      </div>
+    </div>
+    <div class="gallery-wrap">
+      <div class="gallery-track reverse">
+        <div class="gallery-card"><img src="assets/galeria-fachada-04.jpg" alt="Fachada residencial em tons terrosos"><div class="overlay"></div><div class="content"><h4>Fachada em tons terrosos</h4><p>Residência — Blumenau</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-quarto-08.jpg" alt="Parede boiserie em quarto na cor creme"><div class="overlay"></div><div class="content"><h4>Boiserie no quarto</h4><p>Acabamento sob medida</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-muro-02.jpg" alt="Muro externo pintado em terracota"><div class="overlay"></div><div class="content"><h4>Muro e portão</h4><p>Acabamento em terracota</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-escada-07.jpg" alt="Escada interna com pintura laqueada em marrom escuro"><div class="overlay"></div><div class="content"><h4>Escada laqueada</h4><p>Alto brilho, acabamento interno</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-textura-11.jpg" alt="Parede com textura granulada em banheiro"><div class="overlay"></div><div class="content"><h4>Textura granulada</h4><p>Banheiro — acabamento especial</p></div></div>
+        <!-- duplicado p/ loop contínuo -->
+        <div class="gallery-card"><img src="assets/galeria-fachada-04.jpg" alt="Fachada residencial em tons terrosos"><div class="overlay"></div><div class="content"><h4>Fachada em tons terrosos</h4><p>Residência — Blumenau</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-quarto-08.jpg" alt="Parede boiserie em quarto na cor creme"><div class="overlay"></div><div class="content"><h4>Boiserie no quarto</h4><p>Acabamento sob medida</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-muro-02.jpg" alt="Muro externo pintado em terracota"><div class="overlay"></div><div class="content"><h4>Muro e portão</h4><p>Acabamento em terracota</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-escada-07.jpg" alt="Escada interna com pintura laqueada em marrom escuro"><div class="overlay"></div><div class="content"><h4>Escada laqueada</h4><p>Alto brilho, acabamento interno</p></div></div>
+        <div class="gallery-card"><img src="assets/galeria-textura-11.jpg" alt="Parede com textura granulada em banheiro"><div class="overlay"></div><div class="content"><h4>Textura granulada</h4><p>Banheiro — acabamento especial</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="porque" style="background:var(--orange-50);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Por que a Barroso &amp; Nunes</span>
+      <h2>O que os próprios clientes destacam</h2>
+      <p>Nada de promessa genérica — só o que aparece, de novo e de novo, nas avaliações reais do Google.</p>
+    </div>
+    <div class="why-grid reveal-stagger">
+      <div class="why-card border-run">
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+        <div>
+          <h4>Pontualidade real</h4>
+          <p><q>Extremamente pontual, organizado e cuidadoso com cada detalhe</q> — é assim que os clientes descrevem no Google.</p>
+        </div>
+      </div>
+      <div class="why-card border-run">
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"/></svg></div>
+        <div>
+          <h4>Ambiente protegido</h4>
+          <p>Piso, móveis e vidros cobertos antes de qualquer pincelada — <q>proteção adequada do ambiente</q>, sem sujeira deixada para trás.</p>
+        </div>
+      </div>
+      <div class="why-card border-run">
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <div>
+          <h4>Capricho em cada detalhe</h4>
+          <p>Preparação cuidadosa da superfície, sem atalho, do primeiro ao último cômodo.</p>
+        </div>
+      </div>
+      <div class="why-card border-run">
+        <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M20 21a8 8 0 0 0-16 0"/><circle cx="12" cy="7.5" r="4.5"/></svg></div>
+        <div>
+          <h4>Atendimento direto</h4>
+          <p>Você fala com o Alexandre, quem executa o serviço — sem call center, sem intermediário.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacoes">
+  <div class="container">
+  <div class="proof reveal">
+    <div class="proof-top">
+      <div class="proof-score">
+        <div>
+          <div class="num">5,0</div>
+          <div class="stars">
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg>
+          </div>
+          <small>25 avaliações no Google</small>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/place/Barroso+e+Nunes+pinturas/@-26.9024775,-49.076992,17z/data=!3m1!4b1!4m6!3m5!1s0x94df1f0b9c4f4025:0x593d23a98d101834!8m2!3d-26.9024775!4d-49.076992" target="_blank" rel="noopener">Ver todas as avaliações no Google →</a>
+    </div>
+    <div class="proof-quotes">
+      <div class="quote-card">
+        <div class="stars">★★★★★</div>
+        <p>"Contratei o Alexandre e tive uma experiência excelente. Extremamente pontual, organizado e muito cuidadoso com cada detalhe do serviço."</p>
+        <b>Pati Fabi</b>
+        <span>Local Guide · Avaliação no Google</span>
+      </div>
+      <div class="quote-card">
+        <div class="stars">★★★★★</div>
+        <p>"Profissional ímpar. Super caprichoso. Amei cada detalhe, melhor experiência em minha vida na parte de pinturas."</p>
+        <b>Marlene Adam</b>
+        <span>Avaliação no Google</span>
+      </div>
+      <div class="quote-card">
+        <div class="stars">★★★★★</div>
+        <p>"Equipe excelente! Extremamente organizados, pontuais com os horários e a pintura fica perfeita!! Indico de olhos fechados."</p>
+        <b>Maria Eduarda Altenburg</b>
+        <span>Local Guide · Avaliação no Google</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container about reveal-stagger">
+    <div class="about-media">
+      <img src="assets/sobre-fachada.jpg" alt="Casa pintada pela equipe Barroso e Nunes, ao entardecer">
+      <div class="about-badge">
+        <div>
+          <div class="stars">★★★★★</div>
+          <b>5,0 no Google</b>
+          <small>25 avaliações</small>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="eyebrow" style="margin-bottom:14px;">Quem pinta</span>
+      <h2 style="font-size:clamp(26px,3vw,32px);font-weight:700;letter-spacing:-.02em;">O Alexandre e a equipe Barroso &amp; Nunes</h2>
+      <p style="color:var(--gray-600);margin-top:14px;font-size:15.5px;">Empresa registrada em Blumenau desde 2022, a Barroso &amp; Nunes existe para resolver a reforma que todo mundo adia: aquela pintura que precisa de alguém pontual, organizado e que trata a casa do cliente com o mesmo cuidado que trataria a própria — do primeiro orçamento até a última demão.</p>
+      <ul class="about-list">
+        <li><span class="check"><svg class="ic" viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></span><span><b>Preparação completa</b> da superfície antes de qualquer demão de tinta.</span></li>
+        <li><span class="check"><svg class="ic" viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></span><span><b>Proteção de móveis, pisos e vidros</b> durante todo o serviço.</span></li>
+        <li><span class="check"><svg class="ic" viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></span><span><b>Cor e acabamento conferidos com você</b> antes de fechar o orçamento.</span></li>
+        <li><span class="check"><svg class="ic" viewBox="0 0 24 24"><path d="m5 13 4 4L19 7"/></svg></span><span><b>Atendimento direto</b> com quem executa o serviço, do início ao fim.</span></li>
+      </ul>
+      <a class="btn btn-primary" style="margin-top:28px;" href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener">Falar com o Alexandre</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contato</span>
+      <h2>Vamos falar sobre a sua pintura</h2>
+      <p>Sem formulário, sem complicação. Manda uma mensagem contando o que quer pintar.</p>
+    </div>
+    <div class="contact-grid reveal-stagger">
+      <div class="contact-card">
+        <div class="contact-item">
+          <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+          <div><h5>Endereço</h5><p>R. Itaiópolis, 66 — Itoupava Seca, Blumenau/SC</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><path d="M8.5 4.5 6.8 3.2a2 2 0 0 0-2.9.4l-.8 1.1c-1.1 1.5.2 5.1 3.4 8.3s6.8 4.5 8.3 3.4l1.1-.8a2 2 0 0 0 .4-2.9L15 11a2 2 0 0 0-2.5-.5l-1.1.7a12 12 0 0 1-2.6-2.6l.7-1.1a2 2 0 0 0-.5-2.5Z"/></svg></div>
+          <div><h5>Telefone / WhatsApp</h5><p><a href="tel:+5547997244242">(47) 99724-4242</a></p></div>
+        </div>
+        <div class="contact-item">
+          <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></div>
+          <div><h5>Instagram</h5><p><a href="https://www.instagram.com/barrosoenunes.pinturas2020/" target="_blank" rel="noopener">@barrosoenunes.pinturas2020</a></p></div>
+        </div>
+        <div class="contact-item">
+          <div class="ic-wrap"><svg class="ic" viewBox="0 0 24 24" fill="var(--star)" stroke="none"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L2 9.2l7.1-.6z"/></svg></div>
+          <div><h5>Avaliação Google</h5><p>5,0 de 5 (25 avaliações)</p></div>
+        </div>
+        <a class="btn btn-primary" style="width:100%;justify-content:center;margin-top:6px;" href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <div class="phone-shell" style="margin-top:26px;">
+          <div class="phone-top"></div>
+          <div class="chat-head"><span class="chat-avatar">B&amp;N</span><span>Barroso &amp; Nunes<br><small style="opacity:.8">online agora</small></span></div>
+          <div class="chat-body">
+            <div class="bubble">Olá! Como podemos ajudar com a pintura do seu espaço?</div>
+            <div class="bubble me">Oi! Gostaria de um orçamento</div>
+            <div class="bubble">Perfeito, me conta o que você quer pintar que já te retorno com um valor.</div>
+          </div>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps?q=-26.9024775,-49.076992&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+  <div class="cta-banner reveal">
+    <h2>Bora combinar a cor do seu próximo ambiente?</h2>
+    <p>Manda uma mensagem agora e receba uma ideia de valor ainda hoje, direto com o Alexandre.</p>
+    <button class="btn btn-ghost-light" id="ctaQuoteBtn">Pedir orçamento no WhatsApp</button>
+  </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="foot-brand">
+        <svg class="mark" viewBox="0 0 48 48" fill="none">
+          <path d="M6 24 22 9 38 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 22v18h24V22" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M17 40V28h8v12" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <g transform="rotate(40 32 16)">
+            <rect x="29" y="3" width="6" height="9" rx="1.4" fill="currentColor"/>
+            <rect x="28.3" y="11.4" width="7.4" height="4.6" fill="currentColor"/>
+            <rect x="29" y="15.6" width="6" height="9" rx="1" fill="currentColor" opacity=".55"/>
+          </g>
+        </svg>
+        <b>Barroso &amp; Nunes Pinturas</b>
+      </div>
+      <p class="desc">Pintura residencial e comercial em Blumenau e região, com o capricho e a pontualidade que os próprios clientes destacam no Google.</p>
+    </div>
+    <div>
+      <h5>Navegação</h5>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#trabalhos">Trabalhos</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Atendimento</h5>
+      <ul>
+        <li><a href="tel:+5547997244242">(47) 99724-4242</a></li>
+        <li><a href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener">WhatsApp</a></li>
+        <li>Seg – Sáb, 07h às 18h</li>
+      </ul>
+    </div>
+    <div>
+      <h5>Localização</h5>
+      <ul>
+        <li>Itoupava Seca</li>
+        <li>Blumenau · Santa Catarina</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© 2026 Barroso &amp; Nunes Pinturas.</span>
+    <span>Feito para transformar ambientes com cuidado de verdade.</span>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://api.whatsapp.com/send/?phone=5547997244242&text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Barroso%20%26%20Nunes%20e%20gostaria%20de%20um%20or%C3%A7amento%20de%20pintura." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L4 20l1.1-3.2A8.5 8.5 0 1 1 20 11.5Z"/><path d="M8.4 8.3c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.7 2.3 2.2l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6-.2.7-.7 1.2-1.4 1.4-1.3.2-3.1-.6-4.7-2.2-1.6-1.6-2.3-3.4-2.1-4.9.1-.4.7-1 1.1-1.1Z"/></svg>
+  <span class="ping"></span>
+</a>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    <h3>Pedir orçamento</h3>
+    <p>Duas perguntas rápidas pra chegar com uma ideia melhor de valor.</p>
+    <div class="field-group">
+      <label>Tipo de serviço</label>
+      <div class="chip-row" id="chipService">
+        <button type="button" class="chip" data-value="pintura interna">Pintura interna</button>
+        <button type="button" class="chip" data-value="pintura externa / fachada">Externa / fachada</button>
+        <button type="button" class="chip" data-value="muro ou portão">Muro ou portão</button>
+        <button type="button" class="chip" data-value="outro serviço">Outro</button>
+      </div>
+    </div>
+    <div class="field-group">
+      <label>Urgência</label>
+      <div class="chip-row" id="chipUrgency">
+        <button type="button" class="chip" data-value="essa semana">Essa semana</button>
+        <button type="button" class="chip" data-value="nas próximas semanas">Próximas semanas</button>
+        <button type="button" class="chip" data-value="só orçamento por enquanto">Só orçamento</button>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" id="modalSend" style="width:100%;justify-content:center;">Enviar no WhatsApp</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var WHATS_PHONE = '5547997244242';
+
+  var header = document.getElementById('siteHeader');
+  var onScroll = function(){ header.classList.toggle('scrolled', window.scrollY > 12); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  requestAnimationFrame(function(){ requestAnimationFrame(function(){ document.body.classList.add('loaded'); }); });
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) { entry.target.classList.add('is-visible'); io.unobserve(entry.target); }
+      });
+    }, { threshold: 0.14, rootMargin: '0px 0px -60px 0px' });
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  var menuToggle = document.getElementById('menuToggle');
+  var navLinks = document.querySelector('.nav-links');
+  if (menuToggle) {
+    menuToggle.addEventListener('click', function(){
+      var open = navLinks.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open);
+    });
+  }
+
+  // Modal de orçamento
+  var overlay = document.getElementById('modalOverlay');
+  var openers = [document.getElementById('heroQuoteBtn'), document.getElementById('navQuoteBtn'), document.getElementById('ctaQuoteBtn')];
+  var closeBtn = document.getElementById('modalClose');
+  var chipService = document.getElementById('chipService');
+  var chipUrgency = document.getElementById('chipUrgency');
+  var sendBtn = document.getElementById('modalSend');
+
+  function openModal(){ overlay.classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function closeModal(){ overlay.classList.remove('open'); document.body.style.overflow = ''; }
+
+  openers.forEach(function(btn){ if (btn) btn.addEventListener('click', openModal); });
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', function(e){ if (e.target === overlay) closeModal(); });
+
+  function wireChips(group){
+    group.querySelectorAll('.chip').forEach(function(chip){
+      chip.addEventListener('click', function(){
+        group.querySelectorAll('.chip').forEach(function(c){ c.classList.remove('active'); });
+        chip.classList.add('active');
+      });
+    });
+  }
+  wireChips(chipService);
+  wireChips(chipUrgency);
+
+  sendBtn.addEventListener('click', function(){
+    var service = chipService.querySelector('.chip.active');
+    var urgency = chipUrgency.querySelector('.chip.active');
+    var serviceText = service ? service.getAttribute('data-value') : 'a combinar';
+    var urgencyText = urgency ? urgency.getAttribute('data-value') : 'a combinar';
+    var msg = 'Olá! Vim pelo site da Barroso & Nunes.\nServiço: ' + serviceText + '\nUrgência: ' + urgencyText + '\nPodem me passar um orçamento?';
+    window.open('https://api.whatsapp.com/send/?phone=' + WHATS_PHONE + '&text=' + encodeURIComponent(msg), '_blank');
+    closeModal();
+  });
+})();
+</script>
+
+</body>
+</html>
